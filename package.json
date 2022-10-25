@@ -16,6 +16,7 @@
   },
   "homepage": "https://github.com/jonasschmedtmann/advanced-css-course#readme",
   "devDependencies": {
-    "prettier": "^2.7.1"
+    "prettier": "^2.7.1",
+    "sass": "^1.55.0"
   }
 }

@@ -1,0 +1,22 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+
+  /* Inherited from body because it's a better practise */
+  box-sizing: inherit;
+}
+
+html {
+  /* Default browsers font-size is 16px and we want
+   a 10px font-size by default to calculate all 
+   measures with rem and the calculations will be simple.
+   Defines what a 1rem is */
+  font-size: 62.5%;
+}
+
+body {
+  padding: 3rem;
+  box-sizing: border-box;
+}
